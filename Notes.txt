@@ -1,0 +1,60 @@
+################################ REACT NATIVE ###################################
+                                ( By Facebook )
+//////////////// Cross Platform Mobile Application Development //////////////////
+
+#################################################################################
+
+(#) Getting started with React NATIVE
+
+(1) Install React Native Development Tools
+
+-> npm install -g create-react-native-app
+OR
+-> yarn global add create-react-native-app
+
+(2) Scaffolding an Application
+-> create-react-native-app <appname>
+
+(3) Give access to Expo SDK
+
+!!!!!!!!!!!(create-react-native-app is deprecated and its has been merged with expo)!!!!!!!!!!!!!
+
+So use expo-cli for creating the projects
+
+(1) Install expo-cli
+-> yarn global add expo-cli
+
+(2) Create project
+-> expo init projectName
+
+(3) Run the project
+-> cd projectName
+-> expo start
+This will start the expo development server and the expo developer options 
+use "Expo Client" app to run the app on device else use emulator
+
+----------------------------------------------------------------------------
+
+(#) Developing React Native App
+
+# Basic elements of RNA : React Native Components and React Native Elements
+
+-> Components 
+    // Similar to React Components
+    // Have state,props,JSX same as React
+
+-> Elements
+    // All-in-one UI kit for creating apps
+    // Has many useful and ready-to-use Components
+
+    Installation : yarn add react-native-elements
+
+
+# Navigation using React Navigation
+-> Built-in navigators : Stack, Drawer, Tab, Switch
+
+-> Installation : yarn add react-navigation 
+                            OR 
+                npm install -save react-navigation
+
+    Also add this package : yarn add react-native-gesture-handler
