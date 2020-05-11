@@ -55,6 +55,7 @@ use "Expo Client" app to run the app on device else use emulator
 
 -> Installation : yarn add react-navigation 
                             OR 
-                npm install -save react-navigation
-
-    Also add this package : yarn add react-native-gesture-handler
+                npm install --save react-navigation
+    -Then also install following packages:  expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+    
+    -For version 4 also add the following package: yarn add react-navigation-stack
