@@ -59,3 +59,12 @@ use "Expo Client" app to run the app on device else use emulator
     -Then also install following packages:  expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
     
     -For version 4 also add the following package: yarn add react-navigation-stack
+
+    To improve efficiency of navigation in Android(using Fragments) and IOS(using UIViewController) install following package:
+    This allows react native to use native optimized navigation components for performance improvement
+        expo install react-native-screens
+    expo install will determine and install compatible version of package
+
+#Configuring header using external package:
+    -> Use following package to use buttons,icons,etc. in the header:
+            yarn add react-navigation-header-buttons
