@@ -68,3 +68,17 @@ use "Expo Client" app to run the app on device else use emulator
 #Configuring header using external package:
     -> Use following package to use buttons,icons,etc. in the header:
             yarn add react-navigation-header-buttons
+
+## Tab Navigation
+    Install package : npm install --save react-navigation-tabs
+                                    OR
+                        yarn add react-navigation-tabs 
+
+    (Optional)
+    To use Material Bottom Tabs Navigation install following package:
+                yarn add react-navigation-material-bottom-tabs
+    Also install react-native-paper: 
+                yarn add react-native-paper
+
+## Drawer Navigation
+    Installation : yarn add react-navigation-drawer
